@@ -1,7 +1,5 @@
 package pages;
 
-import java.io.IOException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -16,11 +14,11 @@ public class LoginPage {
 	}
 
 	public void enterUsername(String uname) throws Exception {
-		driver.findElement(By.xpath(Utility.fetchLocatorValue("loginusername_XPATH"))).sendKeys("uname");
+		driver.findElement(By.xpath(Utility.fetchLocatorValue("loginusername_XPATH"))).sendKeys(uname);
 	}
 
 	public void enterPasswordname(String pass) throws Exception {
-		driver.findElement(By.xpath(Utility.fetchLocatorValue("loginpassword_XPATH"))).sendKeys("pass");
+		driver.findElement(By.xpath(Utility.fetchLocatorValue("loginpassword_XPATH"))).sendKeys(pass);
 	}
 
 	public void clickSignin() throws Exception {
