@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="DataDriven Testing">
+
+  <test name="FBTestlogin">
+    <classes>
+      <class name="testcases.TC_01_ValidateLoginFunctionality"/>
+    </classes>
+  </test>  
+
+</suite> 
